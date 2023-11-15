@@ -146,6 +146,9 @@ with open("assets/js/etf1_dygraph2.js", 'w') as f2:
     with open("assets/old_cache.txt", 'r') as data_file:
         for line in data_file:
             date, nav, price=line.replace("\t",",").strip("\n|\r").split(",")
-            prem_dis = (float(nav)/float(price)) - 1
+            if isinstance(price, (int, float, complex)):
+                prem_dis = (float(nav)/float(price)) - 1
+            else: 
+                prem_dis = 0
             historic_data += "{},{}\\n".format(date, prem_dis*100)
     f2.write("g2 = new Dygraph( document.getElementById('graphdiv2'), '"+historic_data+"', { " + graph_options + "} );")
