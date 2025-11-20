@@ -4,26 +4,26 @@ for( i=0 ;i< document.getElementsByClassName('fund_iopv').length;i++) { document
 for( i=0 ;i< document.getElementsByClassName('fund_exchg').length;i++) { document.getElementsByClassName('fund_exchg')[i].innerHTML = 'Cboe BZX Exchange, Inc.'; }
 for( i=0 ;i< document.getElementsByClassName('fund_cusip').length;i++) { document.getElementsByClassName('fund_cusip')[i].innerHTML = '19423L490'; }
 for( i=0 ;i< document.getElementsByClassName('fund_inception_date').length;i++) { document.getElementsByClassName('fund_inception_date')[i].innerHTML = '2023-11-14'; }
-for( i=0 ;i< document.getElementsByClassName('fund_net_assets').length;i++) { document.getElementsByClassName('fund_net_assets')[i].innerHTML = '$17,039,100.00'; }
+for( i=0 ;i< document.getElementsByClassName('fund_net_assets').length;i++) { document.getElementsByClassName('fund_net_assets')[i].innerHTML = '$17,024,020.00'; }
 for( i=0 ;i< document.getElementsByClassName('fund_shares_ots').length;i++) { document.getElementsByClassName('fund_shares_ots')[i].innerHTML = '650,000'; }
-for( i=0 ;i< document.getElementsByClassName('fund_info_date').length;i++) { document.getElementsByClassName('fund_info_date')[i].innerHTML = '2025-11-18'; }
-for( i=0 ;i< document.getElementsByClassName('fund_nav').length;i++) { document.getElementsByClassName('fund_nav')[i].innerHTML = '26.214'; }
-for( i=0 ;i< document.getElementsByClassName('fund_close_price').length;i++) { document.getElementsByClassName('fund_close_price')[i].innerHTML = '26.1952'; }
-for( i=0 ;i< document.getElementsByClassName('fund_discount_premium').length;i++) { document.getElementsByClassName('fund_discount_premium')[i].innerHTML = '-0.0717'; }
-for( i=0 ;i< document.getElementsByClassName('fund_thirty_day_median_bid_ask').length;i++) { document.getElementsByClassName('fund_thirty_day_median_bid_ask')[i].innerHTML = '0.003017'; }
-for( i=0 ;i< document.getElementsByClassName('nav_chg_dollar').length;i++) { document.getElementsByClassName('nav_chg_dollar')[i].innerHTML = '-0.0122'; }
-for( i=0 ;i< document.getElementsByClassName('nav_chg_percent').length;i++) { document.getElementsByClassName('nav_chg_percent')[i].innerHTML = '-0.0465'; }
-for( i=0 ;i< document.getElementsByClassName('price_chg_dollar').length;i++) { document.getElementsByClassName('price_chg_dollar')[i].innerHTML = '-0.0213'; }
-for( i=0 ;i< document.getElementsByClassName('price_chg_percent').length;i++) { document.getElementsByClassName('price_chg_percent')[i].innerHTML = '-0.0812'; }
+for( i=0 ;i< document.getElementsByClassName('fund_info_date').length;i++) { document.getElementsByClassName('fund_info_date')[i].innerHTML = '2025-11-19'; }
+for( i=0 ;i< document.getElementsByClassName('fund_nav').length;i++) { document.getElementsByClassName('fund_nav')[i].innerHTML = '26.1908'; }
+for( i=0 ;i< document.getElementsByClassName('fund_close_price').length;i++) { document.getElementsByClassName('fund_close_price')[i].innerHTML = '26.16'; }
+for( i=0 ;i< document.getElementsByClassName('fund_discount_premium').length;i++) { document.getElementsByClassName('fund_discount_premium')[i].innerHTML = '-0.1176'; }
+for( i=0 ;i< document.getElementsByClassName('fund_thirty_day_median_bid_ask').length;i++) { document.getElementsByClassName('fund_thirty_day_median_bid_ask')[i].innerHTML = '0.003026'; }
+for( i=0 ;i< document.getElementsByClassName('nav_chg_dollar').length;i++) { document.getElementsByClassName('nav_chg_dollar')[i].innerHTML = '-0.0232'; }
+for( i=0 ;i< document.getElementsByClassName('nav_chg_percent').length;i++) { document.getElementsByClassName('nav_chg_percent')[i].innerHTML = '-0.0885'; }
+for( i=0 ;i< document.getElementsByClassName('price_chg_dollar').length;i++) { document.getElementsByClassName('price_chg_dollar')[i].innerHTML = '-0.0352'; }
+for( i=0 ;i< document.getElementsByClassName('price_chg_percent').length;i++) { document.getElementsByClassName('price_chg_percent')[i].innerHTML = '-0.1344'; }
 for( i=0 ;i< document.getElementsByClassName('premium_discount_days_q').length;i++) { document.getElementsByClassName('premium_discount_days_q')[i].innerHTML = '64.0'; }
 for( i=0 ;i< document.getElementsByClassName('premium_discount_days_y').length;i++) { document.getElementsByClassName('premium_discount_days_y')[i].innerHTML = '252.0'; }
 for( i=0 ;i< document.getElementsByClassName('current_cal_q_pd_premium').length;i++) { document.getElementsByClassName('current_cal_q_pd_premium')[i].innerHTML = '17'; }
-for( i=0 ;i< document.getElementsByClassName('current_cal_q_pd_discount').length;i++) { document.getElementsByClassName('current_cal_q_pd_discount')[i].innerHTML = '18'; }
-for( i=0 ;i< document.getElementsByClassName('current_cal_q_pd_total').length;i++) { document.getElementsByClassName('current_cal_q_pd_total')[i].innerHTML = '35'; }
+for( i=0 ;i< document.getElementsByClassName('current_cal_q_pd_discount').length;i++) { document.getElementsByClassName('current_cal_q_pd_discount')[i].innerHTML = '19'; }
+for( i=0 ;i< document.getElementsByClassName('current_cal_q_pd_total').length;i++) { document.getElementsByClassName('current_cal_q_pd_total')[i].innerHTML = '36'; }
 for( i=0 ;i< document.getElementsByClassName('previous_cal_q_pd_premium').length;i++) { document.getElementsByClassName('previous_cal_q_pd_premium')[i].innerHTML = '38'; }
 for( i=0 ;i< document.getElementsByClassName('previous_cal_q_pd_discount').length;i++) { document.getElementsByClassName('previous_cal_q_pd_discount')[i].innerHTML = '26'; }
 for( i=0 ;i< document.getElementsByClassName('previous_cal_q_pd_total').length;i++) { document.getElementsByClassName('previous_cal_q_pd_total')[i].innerHTML = '64'; }
 for( i=0 ;i< document.getElementsByClassName('previous_cal_y_pd_premium').length;i++) { document.getElementsByClassName('previous_cal_y_pd_premium')[i].innerHTML = '134'; }
 for( i=0 ;i< document.getElementsByClassName('previous_cal_y_pd_discount').length;i++) { document.getElementsByClassName('previous_cal_y_pd_discount')[i].innerHTML = '118'; }
 for( i=0 ;i< document.getElementsByClassName('previous_cal_y_pd_total').length;i++) { document.getElementsByClassName('previous_cal_y_pd_total')[i].innerHTML = '252'; }
-document.getElementById("fund_holdings_table").innerHTML += "<tr><td>2025-11-18</td><td>CASH AND CASH EQUIVALENTS</td><td>None</td><td>None</td><td>5355552.13</td><td>5355552</td><td>0.314</td></tr><tr><td>2025-11-18</td><td>iShares 20+ Year Treasury Bond ETF</td><td>TLT</td><td>464287432</td><td>2399365.46</td><td>26941</td><td>0.141</td></tr><tr><td>2025-11-18</td><td>WISDOMTREE FLOATING RATE TREAS WISDOMTREE FLOATING RATE TRE</td><td>USFR</td><td>97717Y527</td><td>2880592.0</td><td>57200</td><td>0.169</td></tr><tr><td>2025-11-18</td><td>VANGUARD MORTGAGE-BACKED SEC</td><td>VMBS</td><td>92206C771</td><td>556314.61</td><td>11839</td><td>0.033</td></tr><tr><td>2025-11-18</td><td>SPDR Citi International Government Inflation-Protected Bond ETF</td><td>WIP</td><td>78464A490</td><td>1193853.18</td><td>30714</td><td>0.07</td></tr><tr><td>2025-11-18</td><td>BONDBLOXX BLOOMBERG SIX MONTH BONDBLOXX BBG 6 MTH US TREAS</td><td>XHLF</td><td>09789C788</td><td>2401296.3</td><td>47730</td><td>0.141</td></tr><tr><td>2025-11-18</td><td>ISHARES 25+ YEAR TREASURY</td><td>GOVZ US</td><td>46436E577</td><td>2253420.0</td><td>234000</td><td>0.132</td></tr>";
+document.getElementById("fund_holdings_table").innerHTML += "<tr><td>2025-11-19</td><td>CASH AND CASH EQUIVALENTS</td><td>None</td><td>None</td><td>17035427.77</td><td>17035428</td><td>1.0</td></tr>";
